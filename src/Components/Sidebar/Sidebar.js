@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Sidebar.css"
 
 const Sidebar = () => {
     return (
-        <div>
+        <div className="mainDiv">
             <h1>Hello from the Sidebar!</h1>
         </div>
     )

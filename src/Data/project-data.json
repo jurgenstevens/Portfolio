@@ -1,3 +1,5 @@
 [
-    {"name": "Hillbomber", "image": "#", "link": "https://jurgenstevens.github.io/hillbomber/" }
+    {"name": "Hillbomber", "image": "https://imgur.com/R6ntoQi", "link": "https://jurgenstevens.github.io/hillbomber/" },
+    {"name": "uCommute", "image": "https://imgur.com/VF4L7FF", "link": "https://ucommute.herokuapp.com/" },
+    {"name": "Archer Skateshop", "image": "https://imgur.com/RWu75vL", "link": "https://archerskateshop.netlify.app/" }
 ]

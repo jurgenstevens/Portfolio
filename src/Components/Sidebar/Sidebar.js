@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Sidebar.css"
+// import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
-        <div className="sidebarDiv">
-            <h1>Hello from the Sidebar!</h1>
-        </div>
+        <h1>Hello from Sidebar</h1>
     )
 }
 

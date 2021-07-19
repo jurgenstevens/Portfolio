@@ -1,0 +1,8 @@
+.links {
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+	color: #b3b3b3;
+	font-size: large;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+}

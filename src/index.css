@@ -49,15 +49,36 @@ body{
 h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
+
+.headerComponent {
+    background-color: #212121;
+    color: #ecebe8;
+    display: inline-flexbox;
+	width: 80%;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .sidebarDiv {
     background-color: #121212;
     color: #b3b3b3;
+	width: 20%;
+	display: block;
+	float: left;
+	flex-direction: column;
+	align-items: stretch;
 }
-.links {
-	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
-	color: #b3b3b3;
-	font-size: large;
-	text-decoration: none;
-	display: flex;
 
+.headerDiv {
+    background-color: #212121;
+    color: #ecebe8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.homeDiv {
+    background-color:  #535353;
+    color: #ecebe8;
+    display: flex;
 }

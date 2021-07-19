@@ -5,10 +5,14 @@ import { Link } from 'react-router-dom'
 const Sidebar = () => {
     return (
     <div className="sidebarDiv">
-        <Link className="links" to="/">Home</Link>
+        <Link className="links" id="homeLink" to="/">Home</Link>
+        <hr />
         <Link className="links" to="/about">About Me</Link>
+        <hr />
         <Link className="links" to="/projects">Projects</Link>
+        <hr />
         <Link className="links" to="/contact">Contact Me</Link>
+        <hr />
         <Link className="links" to="/resume">Resume</Link>
     </div>
     )

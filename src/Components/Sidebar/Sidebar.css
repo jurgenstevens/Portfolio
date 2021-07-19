@@ -1,8 +1,20 @@
 .links {
 	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
 	color: #b3b3b3;
-	font-size: large;
+	font-size: 1.4rem;
+	font-weight: bold;
+	word-wrap: break-word;
 	text-decoration: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	border: 5vh;
+	margin: 2vh;
+}
+
+hr {
+	width: 75%;
+}
+
+#homeLink {
+	margin-top: 10vh;
 }

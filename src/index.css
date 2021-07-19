@@ -62,11 +62,11 @@ h1{
 .sidebarDiv {
     background-color: #121212;
     color: #b3b3b3;
+	height: 100vh;
 	width: 20%;
 	display: block;
 	float: left;
-	flex-direction: column;
-	align-items: stretch;
+	margin: 0;
 }
 
 .headerDiv {

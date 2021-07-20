@@ -5,19 +5,16 @@ const Header = () => {
     // Set up day time greet
     let today = new Date()
     let currentHour = today.getHours()
-    let greet
-
-    if (currentHour < 12) {
-        greet = "Good morning!"
-    } else if (currentHour < 18) {
-        greet = "Good afternoon!"
-    } else {
-        greet = "Good evening."
-    }
+    // greet variable to be returned to the header with the following condition
+    let greet = currentHour < 12 
+        ? "Good morning!" 
+        : currentHour < 18
+            ? "Good afternoon!"
+                : "Good evening."
 
     return (
         <div className="headerDiv">
-            <h2>{greet} My name is Jurgen.</h2>
+            <h2 className="headerGreet">{greet} My name is Jurgen.</h2>
         </div>
     )
 }

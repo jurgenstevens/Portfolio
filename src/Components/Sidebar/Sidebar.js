@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Sidebar.css"
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
-const Sidebar = () => {
+const Sidebar = ({projects}) => {
+    const [sites, setSites] = useState(projects)
     return (
     <div className="sidebarDiv">
         <Link className="links" id="homeLink" to="/">Home</Link>

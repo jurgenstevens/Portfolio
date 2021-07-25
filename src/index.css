@@ -65,7 +65,7 @@ h1{
 	background-color: #121212;
 	color: #b3b3b3;
 	height: 100vh;
-	width: 20%;
+	width: 18%;
 	display: block;
 	float: left;
 	margin: 0;
@@ -75,14 +75,35 @@ h1{
     color: #ecebe8;
     display: flex;
     height: 10vh;
-    width: 80%;
+    width: 82%;
 }
-.mainDiv{
+.mainDiv {
+	display: flex;
 	height: 75vh;
+	background-image: linear-gradient(
+		to bottom,
+		#212121,
+		#212121
+	  );
+}
+.mainDiv::before {
+	content: "";
+	background-image: linear-gradient(
+		to bottom,
+		#7A9FCC,
+		#212121
+	);
+	transition-property: all;
+	transition: all 0.5s linear;
+	visibility: hidden;
+}
+.mainDiv:hover::before {
+	visibility: visible;
 }
 
 .footerDiv {
 	background-color: #212121;
 	display: flex;
 	height: 15vh;
+	border-top-color: #b3b3b3;
 }

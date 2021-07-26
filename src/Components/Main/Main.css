@@ -1,12 +1,13 @@
-/* .headerDiv {
-    background-color: #212121;
-    color: #ecebe8;
+h1 {
+    flex: 1;
+}
+.headerDiv {
     display: flex;
-    float: left;
-    height: 10vh;
-    width: 100%;
+    float: right;
+    width: 82%;
 }
 
+/* 
 .sidebarDiv {
     background-color: #121212;
     color: #b3b3b3;

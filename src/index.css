@@ -55,10 +55,10 @@ h1{
 .headerDiv {
     background-color: #212121;
     color: #ecebe8;
-    display: inline;
+    display: flex;
 	width: 80%;
 	flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .sidebarDiv {
@@ -75,34 +75,40 @@ h1{
     color: #ecebe8;
     display: flex;
     height: 10vh;
-    width: 82%;
+	opacity: 0.5;
+	margin: 0;
 }
 .mainDiv {
-	display: flex;
-	height: 75vh;
-	background-image: linear-gradient(
+	display: block;
+	height: 85vh;
+	background-image: 
+	linear-gradient(
 		to bottom,
-		#212121,
-		#212121
+		#465A73,
+		#121212
 	  );
 }
-.mainDiv::before {
+/* .mainDiv:hover {
 	content: "";
-	background-image: linear-gradient(
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: 
+	linear-gradient(
 		to bottom,
-		#7A9FCC,
-		#212121
+		#465A73,
+		#121212
 	);
-	transition-property: all;
-	transition: all 0.5s linear;
-	visibility: hidden;
+	z-index: -1;
+	transition: opacity 2.5s;
 }
 .mainDiv:hover::before {
-	visibility: visible;
-}
+	opacity: 1;
+} */
 
 .footerDiv {
-	background-color: #212121;
+	background-color: #121212;
 	display: flex;
 	height: 15vh;
 	border-top-color: #b3b3b3;

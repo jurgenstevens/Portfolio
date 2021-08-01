@@ -65,19 +65,15 @@ h1{
 }
 
 .sidebarDiv {
-	position: absolute;
-	left: 0;
 	background-color: #121212;
 	color: #b3b3b3;
 	height: 100vh;
 	width: 18%;
-	display: block;
-	/* float: left; */
-	margin: 0;
+
 }
 
 .mainDiv {
-	/* position: relative; */
+	position: relative;
 	display: block;
 	height: 85vh;
 	background-image: 
@@ -89,7 +85,7 @@ h1{
 	z-index: 1;
 }
 .mainDiv::before {
-	/* position: relative; */
+	position: absolute;
 	content: "";
 	top: 0;
 	right: 0;

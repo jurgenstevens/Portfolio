@@ -6,8 +6,10 @@ import { useState } from 'react'
 
 const Sidebar = ({projects}) => {
     const [sites] = useState(projects)
+
+
     return (
-    <div className="sidebarDiv">
+    <div className="sidebarDiv" >
         <img src={process.env.PUBLIC_URL + "/Images/eightbitjurgen.jpg"} alt="eight bit avatar" />
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />

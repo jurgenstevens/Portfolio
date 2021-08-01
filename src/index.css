@@ -65,27 +65,31 @@ h1{
 }
 
 .sidebarDiv {
+	position: absolute;
+	left: 0;
 	background-color: #121212;
 	color: #b3b3b3;
 	height: 100vh;
 	width: 18%;
 	display: block;
-	float: left;
+	/* float: left; */
 	margin: 0;
 }
 
-
 .mainDiv {
+	/* position: relative; */
 	display: block;
 	height: 85vh;
 	background-image: 
 	linear-gradient(
 		to bottom,
-		#465A73,
+		#121212,
 		#121212
-	  );
+	);
+	z-index: 1;
 }
-/* .mainDiv:hover {
+.mainDiv::before {
+	/* position: relative; */
 	content: "";
 	top: 0;
 	right: 0;
@@ -98,11 +102,13 @@ h1{
 		#121212
 	);
 	z-index: -1;
-	transition: opacity 2.5s;
+	transition: opacity 0.5s linear;
+    opacity: 0;
 }
 .mainDiv:hover::before {
 	opacity: 1;
-} */
+} 
+
 
 .footerDiv {
 	background-color: #121212;

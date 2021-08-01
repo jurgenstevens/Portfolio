@@ -10,7 +10,9 @@ const Sidebar = ({projects}) => {
 
     return (
     <div className="sidebarDiv" >
-        <img src={process.env.PUBLIC_URL + "/Images/eightbitjurgen.jpg"} alt="eight bit avatar" />
+        <img src={process.env.PUBLIC_URL + "/Images/eightbitjurgen.jpg"} 
+            onClick={() => window.open('https://www.instagram.com/eightbitparty/', "_blank")} 
+        />
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />
         <Link className="links" to="/about">About Me</Link>

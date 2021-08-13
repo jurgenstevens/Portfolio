@@ -63,12 +63,12 @@ h1{
 .headerDiv {
     background-color: #212121;
     color: #ecebe8;
-    display: flex;
+    display: inline;
 	width: 100%;
-	flex-direction: row;
 	height: 10vh;
 	opacity: 0.60;
-	margin: 0;
+	float: right;
+	/* margin: 0; */
 }
 
 .mainDiv {

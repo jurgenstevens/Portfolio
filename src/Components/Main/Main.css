@@ -1,9 +1,5 @@
 h1 {
     flex: 1;
 }
-.headerDiv {
-    display: flex;
-    float: right;
-    width: 82%;
-}
+
 

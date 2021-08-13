@@ -52,29 +52,32 @@ h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
+.sidebarDiv {
+	background-color: #121212;
+	color: #b3b3b3;
+	height: 85vh;
+	width: 18%;
+	display: block;
+}
+
 .headerDiv {
     background-color: #212121;
     color: #ecebe8;
     display: flex;
-	width: 80%;
+	width: 100%;
 	flex-direction: row;
-    flex-wrap: nowrap;
 	height: 10vh;
 	opacity: 0.60;
 	margin: 0;
 }
 
-.sidebarDiv {
-	background-color: #121212;
-	color: #b3b3b3;
-	height: 100vh;
-	width: 18%;
-
-}
-
 .mainDiv {
+	margin-top: 0;
+	float: right;
+	width: 82%;
+	display: flex;
+	flex-direction: row;
 	position: relative;
-	display: block;
 	height: 85vh;
 	background-image: 
 	linear-gradient(
@@ -109,6 +112,7 @@ h1{
 .footerDiv {
 	background-color: #121212;
 	display: flex;
+	position: relative;
 	height: 15vh;
 	border-top-color: #b3b3b3;
 }

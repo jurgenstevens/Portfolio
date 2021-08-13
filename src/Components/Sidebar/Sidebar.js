@@ -6,12 +6,13 @@ import { useState } from 'react'
 
 const Sidebar = ({projects}) => {
     const [sites] = useState(projects)
-
+    console.log(projects)
 
     return (
     <div className="sidebarDiv" >
         <img src={process.env.PUBLIC_URL + "/Images/eightbitjurgen.jpg"} 
             onClick={() => window.open('https://www.instagram.com/eightbitparty/', "_blank")} 
+            alt="8-bit-jurgen"
         />
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />

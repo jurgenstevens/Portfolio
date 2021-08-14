@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
-const Projects = ({projects}) => {
-    console.log(projects)
+const Project = ({props}) => {
+    console.log(props)
     const [project, setProject] = useState(null)
     return (
-        <div>
+        <div className="projectDiv">
             <h1>Hello from Projects!</h1>
             {project ? (
                 <div>
@@ -16,4 +16,4 @@ const Projects = ({projects}) => {
 }
 
 
-export default Projects
+export default Project

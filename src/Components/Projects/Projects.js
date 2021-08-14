@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 
-const Project = ({props}) => {
-    console.log(props)
-    const [project, setProject] = useState(null)
+const Projects = () => {
+    // this will bring in the state from the Link in Main.js containing the props
+    const location = useLocation()
+    console.log(location.state.projects)
+    const projectList = location.state.projects.map(
+        (project, i) => {return <h1>{project.name}</h1>}
+        )
     return (
         <div className="projectDiv">
-            <h1>Hello from Projects!</h1>
-            {project ? (
-                <div>
-                    <h1>{project.name}</h1>
-                </div>
-            ) : null}
+            {projectList}
         </div>
     )
 }
 
 
-export default Project
+export default Projects

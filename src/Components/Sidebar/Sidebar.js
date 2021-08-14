@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 const Sidebar = ({projects}) => {
-    const [sites] = useState(projects)
-    console.log(projects)
 
     return (
     <div className="sidebarDiv" >
@@ -18,7 +16,11 @@ const Sidebar = ({projects}) => {
         <hr />
         <Link className="links" to="/about">About Me</Link>
         <hr />
-        <Link className="links" to="/projects" sites={sites}>Projects</Link>
+        <Link className="links" 
+        to={{pathname: "/projects",
+            state: {projects}
+        }}
+        >Projects</Link>
         <hr />
         <Link className="links" to="/contact">Contact Me</Link>
         <hr />

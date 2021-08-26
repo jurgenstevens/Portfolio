@@ -1,8 +1,6 @@
 import React from 'react'
 import "./Sidebar.css"
-import About from '../About/About'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 
 const Sidebar = ({projects}) => {
 

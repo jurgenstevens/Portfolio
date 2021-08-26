@@ -50,6 +50,34 @@ body{
 }
 h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+   position: absolute;
+   font-size: 3.5vh;
+   margin-top: 20vh;
+   width: 100%; 
+}
+h2 {
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+a {
+	display: inline-flex;
+}
+.projectDiv {
+	display: inline-flex;
+	border-top: 20vh;
+}
+
+.projectLink {
+	background-color: #212121;
+	display: inline-flex;
+	justify-content: space-around;
+	text-align: center;
+	max-height: 20vh;
+	text-align: center;
+	font-size: 3vh;
+	border-radius: 20px;
+	float: left;
+	margin: 2vh;
+	overflow: auto;
 }
 
 .sidebarDiv {
@@ -100,6 +128,7 @@ h1{
 	linear-gradient(
 		to bottom,
 		#465A73,
+		/* or Spotify Green - 1DB954 */
 		#121212
 	);
 	z-index: -1;

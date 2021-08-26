@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 
 function App() {
-  const [projects, setProjects] = useState(projectData)
+  const [projects] = useState(projectData)
   return (
     <div className="App">
       <Main projects={projects}/>

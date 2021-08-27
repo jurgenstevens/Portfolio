@@ -50,10 +50,6 @@ body{
 }
 h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-   position: absolute;
-   font-size: 3.5vh;
-   margin-top: 20vh;
-   width: 100%; 
 }
 h2 {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
@@ -63,19 +59,15 @@ a {
 }
 .projectDiv {
 	display: flex;
-	border-top: 20vh;
+	flex-wrap: wrap;
+	margin-top: 11vh;
 }
 
 .projectLink {
 	background-color: #212121;
-	display: inline-flex;
+	flex-direction: column;
+	width: 30%;
 	justify-content: space-around;
-	text-align: center;
-	max-height: 20vh;
-	max-width: 63vh;
-	text-align: center;
-	border-radius: 20px;
-	margin: 2vh;
 }
 
 .sidebarDiv {
@@ -95,7 +87,6 @@ a {
 	height: 10vh;
 	opacity: 0.60;
 	float: right;
-	/* margin: 0; */
 }
 
 .mainDiv {
@@ -155,12 +146,6 @@ a {
 	color: #b3b3b3;
 }
 
-.projectDiv {
-	margin-top: 11vh;
-	color: #b3b3b3;
-	font-size: 1vw;
-	text-align: center;
-}
 
 
 

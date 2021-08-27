@@ -11,8 +11,8 @@ const Projects = () => {
         {return <div className="projectLink">
                     <a href={project.link}>
                         <img src={project.image} alt="project" />
-                    </a><br />
-                    <h1><span>{project.name}</span></h1>
+                    </a>
+                    <p><span>{project.name}</span></p>
                  </div>
         }
         )

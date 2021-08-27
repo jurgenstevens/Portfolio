@@ -62,7 +62,7 @@ a {
 	display: inline-flex;
 }
 .projectDiv {
-	display: inline-flex;
+	display: flex;
 	border-top: 20vh;
 }
 
@@ -72,12 +72,10 @@ a {
 	justify-content: space-around;
 	text-align: center;
 	max-height: 20vh;
+	max-width: 63vh;
 	text-align: center;
-	font-size: 3vh;
 	border-radius: 20px;
-	float: left;
 	margin: 2vh;
-	overflow: auto;
 }
 
 .sidebarDiv {
@@ -160,4 +158,23 @@ a {
 .projectDiv {
 	margin-top: 11vh;
 	color: #b3b3b3;
+	font-size: 1vw;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.headerDiv{
+		font-size: 3.5vw;
+	}
+
+	.sidebarDiv {
+		font-size: 1.5vh;
+	}
+
+	.projectDiv {
+		display: grid;
+		border-top: 20vh;
+	}
 }

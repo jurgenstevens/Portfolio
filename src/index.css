@@ -45,8 +45,20 @@ code {
 	font-weight: normal;
 	font-style: normal;
 }
+
+:root {
+	--color-bg-primary: #131313;
+	--color-bg-secondary: #171717;
+	--color-grad-bottom: #132E56;
+	--color-grad-top: #00716A;
+	--color-green-accent: #1DB954;
+	--color-text-primary: #FFFFFF;
+	--color-text-muted: #AAAAAA;
+}
+
 body{
 	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+	display: grid;
 }
 h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
@@ -56,19 +68,62 @@ h2 {
 }
 a {
 	display: inline-flex;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
+
 .projectDiv {
-	display: flex;
-	flex-wrap: wrap;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	margin-top: 11vh;
 }
 
-.projectLink {
+.card{
+	/* background-color: #212121; */
+	width: 24vw;
+	padding: 1rem;
+	background-color: #171717;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	margin: auto;
+}
+
+.imageCover {
+	width: 22.5vw;
+	height: 22.5vh;
+	position: relative;
+	background: linear-gradient(var(--color-green-accent), 
+		var(--color-grad-bottom)
+	)
+
+}
+
+.projectName {
+
+}
+
+.projectAbout {
+
+}
+
+
+/* .projectLink {
 	background-color: #212121;
 	flex-direction: column;
 	width: 30%;
 	justify-content: space-around;
-}
+	text-align: center;
+	flex-grow: 3;
+} */
+
+/* .projectLink img {
+	height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+} */
 
 .sidebarDiv {
 	background-color: #121212;

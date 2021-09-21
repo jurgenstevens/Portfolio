@@ -8,11 +8,18 @@ const Projects = () => {
     const location = useLocation()
     console.log(location.state.projects)
     const projectList = location.state.projects.map((project) => 
-        {return <div className="projectLink">
-                    <a href={project.link}>
-                        <img src={project.image} alt="project" />
-                    </a>
-                    <p><span>{project.name}</span></p>
+        {return <div>
+                    <article className="card">
+                        <div className="imageCover">
+                            <a href={project.link}>
+                                {project.name}
+                            </a>
+                        </div>
+                        <div>
+                            <h1 className="projectName"><span>{project.name}</span></h1>
+                            <p className="projectAbout">{project.about}</p>
+                        </div>
+                    </article>
                  </div>
         }
         )
@@ -22,6 +29,5 @@ const Projects = () => {
         </div>
     )
 }
-
 
 export default Projects 

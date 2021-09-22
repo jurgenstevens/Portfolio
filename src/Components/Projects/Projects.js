@@ -11,12 +11,12 @@ const Projects = () => {
         {return <div>
                     <article className="card">
                         <div className="imageCover">
-                            <a href={project.link}>
+                            <a className="projectText" href={project.link}>
                                 {project.name}
                             </a>
                         </div>
                         <div>
-                            <h1 className="projectName"><span>{project.name}</span></h1>
+                            <h2 className="projectName"><span>{project.name}</span></h2>
                             <p className="projectAbout">{project.about}</p>
                         </div>
                     </article>

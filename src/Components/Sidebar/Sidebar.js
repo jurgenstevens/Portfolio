@@ -12,13 +12,13 @@ const Sidebar = ({projects}) => {
         />
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />
-        <Link className="links" to="/about">About Me</Link>
-        <hr />
         <Link className="links" 
         to={{pathname: "/projects",
             state: {projects}
         }}
         >Projects</Link>
+        <hr />
+        <Link className="links" to="/skills">Skills</Link>
         <hr />
         <Link className="links" to="/contact">Contact Me</Link>
         <hr />

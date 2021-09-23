@@ -144,9 +144,10 @@ a {
 }
 
 .projectAbout {
-	font-size: 1.3vw;
+	font-size: 0.9rem;
 	color: #AAAAAA;
 	margin-bottom: 0.5rem;
+	word-wrap: break-word;
 }
 
 

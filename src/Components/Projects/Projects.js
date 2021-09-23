@@ -10,11 +10,11 @@ const Projects = () => {
     const projectList = location.state.projects.map((project) => 
             {return <div className="projectList">
                         <article className="card">
-                            <div >
-                                <a className="imageCover" target="_blank" rel="noreferrer" href={project.link}>
-                                    <h4 className="projectName">{project.name}</h4>
-                                    <h4 className="projectCategory">{project.category}</h4>
+                            <a className="imageCover" target="_blank" rel="noreferrer" href={project.link}>
+                                <h4 className="projectName">{project.name}</h4>
+                                <h4 className="projectCategory">{project.category}</h4>
                                 </a>
+                            <div>
                                 <h2 className="projectTitle"><span>{project.name}</span></h2>
                                 <p className="projectAbout">{project.about}</p>
                             </div>

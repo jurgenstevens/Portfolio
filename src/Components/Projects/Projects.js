@@ -8,7 +8,7 @@ const Projects = () => {
     const location = useLocation()
     console.log(location.state.projects)
     const projectList = location.state.projects.map((project) => 
-            {return <div>
+            {return <div className="projectList">
                         <article className="card">
                             <div >
                                 <a className="imageCover" target="_blank" rel="noreferrer" href={project.link}>
@@ -23,7 +23,7 @@ const Projects = () => {
             }
         )
     return (
-        <div className="projectDiv">
+        <div className="projectsDiv">
             {projectList}
         </div>
     )

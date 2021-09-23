@@ -8,17 +8,13 @@ const Projects = () => {
     const location = useLocation()
     console.log(location.state.projects)
     const projectList = location.state.projects.map((project) => 
-            {return <div className="projectList">
-                        <article className="card">
-                            <a className="imageCover" target="_blank" rel="noreferrer" href={project.link}>
-                                <h4 className="projectName">{project.name}</h4>
-                                <h4 className="projectCategory">{project.category}</h4>
-                                </a>
-                            <div>
-                                <h2 className="projectTitle"><span>{project.name}</span></h2>
-                                <p className="projectAbout">{project.about}</p>
-                            </div>
-                        </article>
+            {return <div className="card">
+                        <a className="imageCover" target="_blank" rel="noreferrer" href={project.link}>
+                            <h4 className="projectName">{project.name}</h4>
+                            <h4 className="projectCategory">{project.category}</h4>
+                        </a>
+                        <h2 className="projectTitle"><span>{project.name}</span></h2>
+                        <p className="projectAbout">{project.about}</p>
                     </div>
             }
         )

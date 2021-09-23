@@ -76,11 +76,15 @@ a {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
-.projectDiv {
+.projectsDiv {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 11vh;
 	justify-content: space-between;
+}
+
+.projectList {
+	justify-content: space-around;
 }
 
 .card{
@@ -91,7 +95,6 @@ a {
 	border-radius: 0.5rem;
 	cursor: pointer;
 	align-items: stretch;
-	justify-content: space-around;
 }
 
 .imageCover {

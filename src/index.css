@@ -76,15 +76,12 @@ a {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
+
 .projectsDiv {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 11vh;
-	/* justify-content: space-between; */
-}
-
-.projectList{
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .card{
@@ -95,6 +92,7 @@ a {
 	border-radius: 0.5rem;
 	cursor: pointer;
 	align-items: stretch;
+	justify-content: center;
 }
 
 .imageCover {
@@ -144,9 +142,10 @@ a {
 }
 
 .projectAbout {
-	font-size: 1.3vw;
+	font-size: 0.9rem;
 	color: #AAAAAA;
 	margin-bottom: 0.5rem;
+	word-wrap: break-word;
 }
 
 

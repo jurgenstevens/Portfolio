@@ -7,6 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+
 }
 
 code {
@@ -63,17 +65,18 @@ body{
 h1{
    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
-h2 {
-	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-}
-h4 {
-	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-}
 a {
 	display: inline-flex;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.homeDiv {
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+	margin: 40vh 10vw;
+	font-size: 1rem;
+	color: #FFFFFF;
 }
 
 .projectsDiv {
@@ -96,16 +99,6 @@ a {
 	align-items: stretch;
 	justify-content: center;
 }
-
-/* .card{
-	flex: 1;
-	width: 24vw;
-	padding: 0.8rem;
-	background-color: #171717;
-	border-radius: 0.5rem;
-	cursor: pointer;
-	align-items: stretch;
-} */
 
 .imageCover {
 	width: 90%;

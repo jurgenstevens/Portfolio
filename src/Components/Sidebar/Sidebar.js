@@ -13,7 +13,9 @@ const Sidebar = ({projects, languages, frameworks}) => {
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />
         <Link className="links"
-            to={{pathname: '/about'}}
+            to={{pathname: '/about',
+            state: {languages, frameworks}
+        }}
         >About Me</Link>
         <hr />
         <Link className="links" 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Sidebar.css"
 import { Link } from 'react-router-dom'
 
-const Sidebar = ({projects}) => {
+const Sidebar = ({projects, languages, frameworks}) => {
 
     return (
     <div className="sidebarDiv" >
@@ -12,10 +12,12 @@ const Sidebar = ({projects}) => {
         />
         <Link className="links" id="mainLink" to="/" >Home</Link>
         <hr />
-        <Link className="links" to="/about">About Me</Link>
+        <Link className="links"
+            to={{pathname: '/about'}}
+        >About Me</Link>
         <hr />
         <Link className="links" 
-        to={{pathname: "/projects",
+            to={{pathname: "/projects",
             state: {projects}
         }}
         >Projects</Link>

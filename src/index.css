@@ -7,8 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-
 }
 
 code {
@@ -59,7 +57,7 @@ code {
 }
 
 body{
-	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 	display: grid;
 }
 h1{
@@ -72,12 +70,73 @@ a {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
+/* ------------------------------------- HOME ---------------------------------- */
+
 .homeDiv {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 	margin: 40vh 10vw;
 	font-size: 1rem;
 	color: #FFFFFF;
 }
+
+
+/* ------------------------------------- ABOUT ME ---------------------------------- */
+.aboutDiv{
+	margin: 11vh 5vh;
+	color: #b3b3b3;
+	max-width: 100%;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.aboutDiv > h1 {
+	margin: 2rem 20vh;
+	font-size: 1.5rem;
+	display: block;
+}
+
+.skills {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.skillCover {
+	width: 90%;
+	height: 90%;
+	margin: 1rem auto;
+	position: relative;
+	background: linear-gradient(#C2A36A, 
+		#A7653B);
+	box-shadow:
+		0 4px 16px rgba(0, 0, 0, 0.4),
+		0 8px 18px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+.skillName {
+	font-size: 1.4vw;
+	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.01rem;
+}
+
+
+
+
+/* ------------------------------------- PROJECTS ---------------------------------- */
 
 .projectsDiv {
 	margin: 20vh 2vh;
@@ -228,25 +287,8 @@ a {
 	color: #b3b3b3;
 }
 
-.aboutDiv{
-    margin-top: 11vh;
-	color: #b3b3b3;
-	max-width: 100%;
-}
 
-/* {
-	margin: 20vh 2vh;
-	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	color: #FFFFFF;
-	align-items: center;
-	justify-content: space-around;
-	position: absolute;
-	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-} */
-
-
+/* ------------------------------------- MOBILE ---------------------------------- */
 
 @media only screen and (max-width: 600px){
 	.headerDiv{
@@ -333,4 +375,8 @@ a {
 		margin: 1rem;
 	}
 	
+	.aboutDiv > h1 {
+		margin: 1rem 2vh;
+		font-size: 1rem;
+	}
 }

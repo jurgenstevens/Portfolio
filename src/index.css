@@ -65,8 +65,18 @@ a {
 .homeDiv {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 	margin: 40vh 10vw;
-	font-size: 1rem;
 	color: #FFFFFF;
+}
+
+.profileIntro {
+	font-size: 2rem;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.profileIntro {
+
 }
 
 /* ------------------------------------- ABOUT ME ---------------------------------- */
@@ -85,37 +95,24 @@ a {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	color: #FFFFFF;
-	/* flex-shrink: inherit; */
+	margin-bottom: 1rem;
 }
 
 .aboutCover {
-	width: 18%;
+	width: 16%;
 	height: 100%;
-	background-color: #171717;
+	background-color: #161616;
 	border-radius: 0.5rem;
 	align-items: stretch;
 	justify-content: center;
 	font-size: 40;
+	margin-bottom: 1rem;
 }
 
-/* the JSON */
-
-/* {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language", "style": {".aboutText": { 
-	"width": "90%",
-	"height": "55%",
-	"margin": "1rem auto",
-	"position": "relative",
-	"background": "linear-gradient(#C2A36A, \n\t\t#A7653B)",
-	"boxShadow":
-	  "0 4px 16px rgba(0, 0, 0, 0.4),\n\t\t0 8px 18px rgba(0, 0, 0, 0.2)",
-	"display": "flex",
-	"flexDirection": "column",
-	"justifyContent": "center",
-	"alignItems": "center",
-	"marginBottom": "1.5rem",
-	"paddingBottom": "20%",
-	"fontSize": ".8rem"
-  }} */
+.aboutCover:hover {
+	transition: 0.5s;
+	background-color: #323130;
+}
 
 .aboutText {
 	width: 90%;
@@ -159,7 +156,7 @@ a {
 
 .aboutName {
 	font-size: 1rem;
-	color: #AAAAAA;
+	color: #FFFFFF;
 	margin-bottom: 0.5rem;
 	margin-left: .8rem;
 	margin-top: .001rem;
@@ -189,6 +186,11 @@ a {
 	cursor: pointer;
 	align-items: stretch;
 	justify-content: center;
+}
+
+.card:hover {
+	transition: 0.5s;
+	background-color: #323130;
 }
 
 .cardCover {

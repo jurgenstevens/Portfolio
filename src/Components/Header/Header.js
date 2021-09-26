@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <div className="headerDiv">
-            <h2 className="headerGreet">{greet} and welcome!</h2>
+            <h2 className="headerGreet">{greet} and welcome to my portfolio!</h2>
         </div>
     )
 }

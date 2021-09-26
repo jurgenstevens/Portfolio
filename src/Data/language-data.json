@@ -13,5 +13,8 @@
       }},
     {"name": "Python", "image": "https://i.imgur.com/fWiCJqP.png", "category": "Language", "style": {
         "background": "linear-gradient(#3671A3, \n\t\t#FFD34A)"
-      }}
+      }},
+    {"name": "PostgreSQL", "image": "https://i.imgur.com/fWiCJqP.png", "category": "Language", "style": {
+      "background": "linear-gradient(#2F5B8B, \n\t\t#FFFFFF)"
+    }}
 ]

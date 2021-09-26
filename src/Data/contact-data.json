@@ -1,0 +1,14 @@
+[
+    {"name": "LinkedIn", "image": "https://imgur.com/be93liF", "category": "Framework", "style": {
+        "background": "linear-gradient(#7DE0FE, \n\t\t#F0F0E8)"
+      }},
+    {"name": "Github", "image": "https://imgur.com/CXztsBZ", "category": "Framework", "style": {
+        "background": "linear-gradient(#0867AB, \n\t\t#FFFFFF)"
+      }},
+    {"name": "Codewars", "image": "https://imgur.com/9dRcgLH", "category": "Framework", "style": {
+        "background": "linear-gradient(#533A77, \n\t\t#FFFFFF)"
+      }},
+    {"name": "Jurgen Stevens", "address": "Chicago, IL, USA 60608", "email": "jurgen.stevens@yahoo.com", "style": {
+        "background": "linear-gradient(#000000, \n\t\t#F7F7F7)"
+      }}
+]

@@ -118,8 +118,8 @@ a {
 	height: 55%;
 	margin: 1rem auto;
 	position: relative;
-	background: linear-gradient(#C2A36A, 
-		#A7653B);
+	/* background: linear-gradient(#C2A36A, 
+		#A7653B); */
 	box-shadow:
 		0 4px 16px rgba(0, 0, 0, 0.4),
 		0 8px 18px rgba(0, 0, 0, 0.2);

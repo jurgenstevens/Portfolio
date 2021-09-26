@@ -1,6 +1,6 @@
 [
     {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language", "style": {
-        "background": "linear-gradient(#C2A36A, \n\t\t#A7653B)"
+        "background": "linear-gradient(#F54D27, \n\t\t#F0F0E8)"
       }},
     {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png", "category": "Language"},
     {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png", "category": "Language"},

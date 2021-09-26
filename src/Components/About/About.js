@@ -3,11 +3,10 @@ import { useLocation } from 'react-router-dom'
 
 const About = () => {
     const location = useLocation()
-    // console.log(location.state.languages)
-    console.log(location.state.frameworks)
+    console.log(location.state.languages)
     const languages = location.state.languages.map((language) => 
         {return <div className="aboutCover">
-                    <div className="aboutText">
+                    <div className="aboutText" style={language.style}>
                         <h4 className="aboutTitle">{language.name}</h4>
                         <h4 className="aboutCategory">{language.category}</h4>
                     </div>
@@ -16,7 +15,7 @@ const About = () => {
         })
     const frameworks = location.state.frameworks.map((framework) => 
     {return <div className="aboutCover">
-                <div className="aboutText" style={framework} >
+                <div className="aboutText" >
                     <h4 className="aboutTitle">{framework.name}</h4>
                     <h4 className="aboutCategory">{framework.category}</h4>
                 </div>

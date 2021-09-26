@@ -1,5 +1,7 @@
 [
-    {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language"},
+    {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language", "style": {
+        "background": "linear-gradient(#C2A36A, \n\t\t#A7653B)"
+      }},
     {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png", "category": "Language"},
     {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png", "category": "Language"},
     {"name": "JavaScript", "image": "https://i.imgur.com/HCtymks.png", "category": "Language"},

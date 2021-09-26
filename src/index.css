@@ -94,6 +94,25 @@ a {
 	font-size: 40;
 }
 
+/* the JSON */
+
+/* {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language", "style": {".aboutText": { 
+	"width": "90%",
+	"height": "55%",
+	"margin": "1rem auto",
+	"position": "relative",
+	"background": "linear-gradient(#C2A36A, \n\t\t#A7653B)",
+	"boxShadow":
+	  "0 4px 16px rgba(0, 0, 0, 0.4),\n\t\t0 8px 18px rgba(0, 0, 0, 0.2)",
+	"display": "flex",
+	"flexDirection": "column",
+	"justifyContent": "center",
+	"alignItems": "center",
+	"marginBottom": "1.5rem",
+	"paddingBottom": "20%",
+	"fontSize": ".8rem"
+  }} */
+
 .aboutText {
 	width: 90%;
 	height: 55%;

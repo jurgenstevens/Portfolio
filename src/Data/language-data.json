@@ -2,8 +2,16 @@
     {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language", "style": {
         "background": "linear-gradient(#F54D27, \n\t\t#F0F0E8)"
       }},
-    {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png", "category": "Language"},
-    {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png", "category": "Language"},
-    {"name": "JavaScript", "image": "https://i.imgur.com/HCtymks.png", "category": "Language"},
-    {"name": "Python", "image": "https://i.imgur.com/fWiCJqP.png", "category": "Language"}
+    {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png", "category": "Language", "style": {
+        "background": "linear-gradient(#E35C24, \n\t\t#F2F2F2)"
+      }},
+    {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png", "category": "Language", "style": {
+        "background": "linear-gradient(#2648D9, \n\t\t#2FA3D4)"
+      }},
+    {"name": "JavaScript", "image": "https://i.imgur.com/HCtymks.png", "category": "Language", "style": {
+        "background": "linear-gradient(#E9D319, \n\t\t#000000)"
+      }},
+    {"name": "Python", "image": "https://i.imgur.com/fWiCJqP.png", "category": "Language", "style": {
+        "background": "linear-gradient(#3671A3, \n\t\t#FFD34A)"
+      }}
 ]

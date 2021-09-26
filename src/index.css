@@ -69,15 +69,14 @@ a {
 }
 
 .profileIntro {
-	font-size: 2rem;
 	display: block;
 	align-items: center;
-	justify-content: center;
+	justify-content: stretch;
+	margin-left: 15vw;
+	font-size: 2rem;
 }
 
-.profileIntro {
 
-}
 
 /* ------------------------------------- ABOUT ME ---------------------------------- */
 
@@ -342,6 +341,22 @@ a {
 		opacity: 0.60;
 		float: right;
 		font-size: 0.6rem;
+	}
+
+	.homeDiv {
+		font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+		margin: 40vh 10vw;
+		color: #FFFFFF;
+		font-size: .8rem;
+	}
+	
+	.profileIntro {
+		display: block;
+		align-items: center;
+		justify-content: stretch;
+		margin-left: 15vw;
+		margin-right: 15vw;
+		font-size: .8rem;
 	}
 
 	.cards {

@@ -24,7 +24,9 @@ const Sidebar = ({projects, languages, frameworks}) => {
         }}
         >Projects</Link>
         <hr />
-        <Link className="links" to="/contact">Contact Me</Link>
+        <Link className="links" 
+            to="/contact"
+            >Contact Me</Link>
         <hr />
         <Link className="links" to="/resume">Resume</Link>
     

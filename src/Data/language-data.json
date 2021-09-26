@@ -1,7 +1,7 @@
 [
-    {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png"},
-    {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png"},
-    {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png"},
-    {"name": "JavaScript", "image": "https://i.imgur.com/HCtymks.png"},
-    {"name": "Python", "image": "https://i.imgur.com/fWiCJqP.png"}
+    {"name": "Git", "image": "https://i.imgur.com/NPdUvAE.png", "category": "Language"},
+    {"name": "HTML", "image": "https://i.imgur.com/hWKmDMm.png", "category": "Language"},
+    {"name": "CSS", "image": "https://i.imgur.com/kYK9NGu.png", "category": "Language"},
+    {"name": "JavaScript", "image": "https://i.imgur.com/HCtymks.png", "category": "Language"},
+    {"name": "Python", "image": "https://i.imgur.com/fWiCJqP.png", "category": "Language"}
 ]

@@ -46,16 +46,6 @@ code {
 	font-style: normal;
 }
 
-:root {
-	--color-bg-primary: #131313;
-	--color-bg-secondary: #171717;
-	--color-grad-bottom: #132E56;
-	--color-grad-top: #00716A;
-	--color-green-accent: #1DB954;
-	--color-text-primary: #FFFFFF;
-	--color-text-muted: #AAAAAA;
-}
-
 body{
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 	display: grid;
@@ -79,62 +69,29 @@ a {
 	color: #FFFFFF;
 }
 
-
 /* ------------------------------------- ABOUT ME ---------------------------------- */
 
 .aboutDiv{
-	margin: 11vh 5vh;
-	color: #b3b3b3;
-	/* max-width: 100%;	 */
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	/* justify-content: space-between; */
-}
-
-.aboutDiv > .bio {
-	display: block;
-	justify-content: center;
-}
-
-.skills {
-	margin: 10vh;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	margin: 15vh 2vw;
 	justify-content: space-around;
-	max-width: 100%;
 }
-
-/* .projectsDiv {
-	margin: 20vh 2vh;
-	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	color: #FFFFFF;
-	align-items: center;
-	justify-content: space-around;
-	position: absolute;
-	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-} */
 
 .aboutCard {
-	width: 30%;
+	width: 200%;
+	max-height: 100%;
 	background-color: #171717;
 	border-radius: 0.5rem;
 	cursor: pointer;
-	align-items: stretch;
-	justify-content: center;
-	margin: 0 0.5rem;
+	font-size: 1rem;
+
 }
-
-
 
 
 /* ------------------------------------- PROJECTS ---------------------------------- */
 
 .projectsDiv {
-	margin: 20vh 2vh;
+	margin: 20vh 2vw;
 	max-width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -147,6 +104,7 @@ a {
 
 .card {
 	width: 30%;
+	max-height: 100%;
 	background-color: #171717;
 	border-radius: 0.5rem;
 	cursor: pointer;
@@ -154,7 +112,7 @@ a {
 	justify-content: center;
 }
 
-.imageCover {
+.cardCover {
 	width: 90%;
 	height: 90%;
 	margin: 1rem auto;
@@ -172,7 +130,7 @@ a {
 	padding-bottom: 20%;
 }
 
-.projectName {
+.cardName {
 	font-size: 2.4vw;
 	font-weight: 900;
 	display: flex;
@@ -180,7 +138,7 @@ a {
 	margin-bottom: 0.01rem;
 }
 
-.projectName::after {
+.cardName::after {
 	content: '';
 	width: 100%;
 	height: 2px;
@@ -189,19 +147,19 @@ a {
 	margin-top: 10px;
 }
 
-.projectCategory {
+.cardCategory {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 1.3vw;
 }
 
-.projectTitle {
+.cardTitle {
 	font-size: 1rem;
 	margin: 1rem;
 	color: #FFFFFF;
 }
 
-.projectAbout {
+.cardAbout {
 	font-size: 0.9rem;
 	color: #AAAAAA;
 	margin-bottom: 0.5rem;
@@ -305,6 +263,20 @@ a {
 		font-size: 0.6rem;
 	}
 
+	.cards {
+		flex-grow: 1;
+		width: 100%;
+		max-width: 100%;
+		max-height: 100%;
+		object-fit: contain;
+	}
+
+	.cards img {
+		max-width: 100%;
+		max-height: 100%;
+		margin: 1rem 1rem;
+	}
+
 	.projectsDiv {
 		margin-top: 9vh;
 		display: flex;
@@ -318,7 +290,7 @@ a {
 	.card {
 		width: 52%;
 	}
-	.imageCover {
+	.cardCover {
 		width: 90%;
 		height: 90%;
 		margin: 1rem auto;
@@ -336,7 +308,7 @@ a {
 		padding-bottom: 20%;
 	}
 
-	.projectName {
+	.cardName {
 		font-size: 2.8vw;
 		font-weight: 900;
 		display: flex;
@@ -344,7 +316,7 @@ a {
 		margin-bottom: 0.01rem;
 	}
 	
-	.projectName::after {
+	.cardName::after {
 		content: '';
 		width: 100%;
 		height: 2px;
@@ -353,17 +325,17 @@ a {
 		margin-top: 10px;
 	}
 	
-	.projectCategory {
+	.cardCategory {
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		font-size: .55rem;
 	}
 
-	.projectTitle {
+	.cardTitle {
 		display: none;
 	}
 
-	.projectAbout {
+	.cardAbout {
 		font-size: 0.5rem;
 		color: #AAAAAA;
 		margin-bottom: 0.5rem;

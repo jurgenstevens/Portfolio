@@ -1,6 +1,6 @@
 [
-    {"name": "React", "image": "https://imgur.com/be93liF"},
-    {"name": "jQuery", "image": "https://imgur.com/CXztsBZ"},
-    {"name": "Bootstrap", "image": "https://imgur.com/9dRcgLH"},
-    {"name": "Flask", "image": "https://imgur.com/eZuycnb"}
+    {"name": "React", "image": "https://imgur.com/be93liF", "category": "Framework"},
+    {"name": "jQuery", "image": "https://imgur.com/CXztsBZ", "category": "Framework"},
+    {"name": "Bootstrap", "image": "https://imgur.com/9dRcgLH", "category": "Framework"},
+    {"name": "Flask", "image": "https://imgur.com/eZuycnb", "category": "Framework"}
 ]

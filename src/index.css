@@ -71,8 +71,12 @@ a {
 
 /* ------------------------------------- ABOUT ME ---------------------------------- */
 
-.bio {
+.bio h3 {
 	font-size: 1rem;
+	margin-left: 1.5rem;
+	margin-right: 5rem;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 }
 
 .aboutDiv {
@@ -118,8 +122,6 @@ a {
 	height: 55%;
 	margin: 1rem auto;
 	position: relative;
-	/* background: linear-gradient(#C2A36A, 
-		#A7653B); */
 	box-shadow:
 		0 4px 16px rgba(0, 0, 0, 0.4),
 		0 8px 18px rgba(0, 0, 0, 0.2);
@@ -127,7 +129,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 1.5rem;
+	margin-bottom: .5rem;
 	padding-bottom: 20%;
 	font-size: .8rem;
 }
@@ -156,10 +158,11 @@ a {
 }
 
 .aboutName {
-	font-size: .8rem;
+	font-size: 1rem;
 	color: #AAAAAA;
 	margin-bottom: 0.5rem;
-	margin: 1rem;
+	margin-left: .8rem;
+	margin-top: .001rem;
 }
 
 
@@ -421,5 +424,25 @@ a {
 	.aboutDiv > h1 {
 		margin: 1rem 2vh;
 		font-size: 1rem;
+	}
+
+	.bio h3 {
+		font-size: 0.85rem;
+		margin-right: 0.8rem;
+	}
+
+	.aboutName {
+		font-size: .45rem;
+		color: #AAAAAA;
+		margin-bottom: 0.5rem;
+		margin-left: .3rem;
+		margin-top: .001rem;
+	}
+
+
+	.aboutCategory {
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-size: .7vw;
 	}
 }

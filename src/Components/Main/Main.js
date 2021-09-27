@@ -4,6 +4,7 @@ import Header from "../Header/Header"
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import Resume from '../Resume/Resume'
 import { Route, Switch } from "react-router-dom"
 import "./Main.css"
 
@@ -23,6 +24,9 @@ const Main = () => {
                 />
                 <Route exact path="/contact" 
                     component={Contact} 
+                />
+                <Route exact path="/resume" 
+                    component={Resume} 
                 />
             </Switch>
         </div>

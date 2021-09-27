@@ -10,7 +10,10 @@ const Sidebar = ({projects, languages, frameworks, contacts}) => {
             onClick={() => window.open('https://www.instagram.com/eightbitparty/', "_blank")} 
             alt="8-bit-jurgen"
         />
-        <Link className="links" id="mainLink" to="/" >Home</Link>
+        <Link className="links" 
+        id="mainLink" 
+        to="/" 
+        >Home</Link>
         <hr />
         <Link className="links"
             to={{pathname: '/about',
@@ -30,7 +33,7 @@ const Sidebar = ({projects, languages, frameworks, contacts}) => {
         }}
         >Contact Me</Link>
         <hr />
-        <Link className="links" to="/resume">Download Resume</Link>
+        <Link className="links" to="/resume">Resume</Link>
     
     </div>
     )

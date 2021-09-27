@@ -30,7 +30,7 @@ const Sidebar = ({projects, languages, frameworks, contacts}) => {
         }}
         >Contact Me</Link>
         <hr />
-        <Link className="links" to="/resume">Resume</Link>
+        <Link className="links" to="/resume">Download Resume</Link>
     
     </div>
     )

@@ -76,7 +76,16 @@ a {
 	font-size: 2rem;
 }
 
+/* ------------------------------------- CONTACT ---------------------------------- */
 
+.contactsDiv {
+	margin: 15vh 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #FFFFFF;
+	margin-bottom: 1rem;
+}
 
 /* ------------------------------------- ABOUT ME ---------------------------------- */
 

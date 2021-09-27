@@ -5,7 +5,7 @@ const Contact = () => {
     const location = useLocation()
     console.log(location.state.contacts)
     return (
-        <div>
+        <div className="contactsDiv">
             <h1>Hello from Contacts</h1>
         </div>
     )

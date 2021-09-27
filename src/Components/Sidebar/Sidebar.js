@@ -28,7 +28,7 @@ const Sidebar = ({projects, languages, frameworks, contacts}) => {
             to={{pathname: "/contact",
             state: {contacts}
         }}
-            >Contact Me</Link>
+        >Contact Me</Link>
         <hr />
         <Link className="links" to="/resume">Resume</Link>
     

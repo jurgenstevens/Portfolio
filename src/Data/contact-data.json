@@ -1,14 +1,14 @@
 [
-    {"name": "LinkedIn", "link": "https://www.linkedin.com/in/jurgenstevens/", "category": "Framework", "style": {
+    {"name": "LinkedIn", "link": "https://www.linkedin.com/in/jurgenstevens/", "image": "", "style": {
         "background": "linear-gradient(#7DE0FE, \n\t\t#F0F0E8)"
       }},
-    {"name": "Github", "link": "https://github.com/jurgenstevens", "category": "Framework", "style": {
+    {"name": "Github", "link": "https://github.com/jurgenstevens", "image": "", "style": {
         "background": "linear-gradient(#0867AB, \n\t\t#FFFFFF)"
       }},
-    {"name": "Codewars", "link": "https://www.codewars.com/users/southsidejdot", "category": "Framework", "style": {
+    {"name": "Codewars", "link": "https://www.codewars.com/users/southsidejdot", "image": "", "style": {
         "background": "linear-gradient(#533A77, \n\t\t#FFFFFF)"
       }},
-    {"name": "Jurgen Stevens", "address": "Chicago, IL, USA 60608", "email": "jurgen.stevens@yahoo.com", "style": {
+    {"name": "Jurgen Stevens", "address": "Chicago, IL, USA 60608", "image": "", "email": "jurgen.stevens@yahoo.com", "style": {
         "background": "linear-gradient(#000000, \n\t\t#F7F7F7)"
       }}
 ]

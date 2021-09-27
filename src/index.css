@@ -50,9 +50,7 @@ body{
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 	display: grid;
 }
-h1{
-   font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-}
+
 a {
 	display: inline-flex;
 	text-decoration: none;
@@ -87,9 +85,85 @@ a {
 	margin-bottom: 1rem;
 }
 
+.contactGreet {
+	display: block;
+	flex-wrap: nowrap;
+	color: #FFFFFF;
+	margin-top: 1vh;
+	text-align: center;
+}
+
+.contactInformation {
+	display: block;
+	text-align: right;
+	color: #FFFFFF;
+	max-width: 5%;
+	max-height: 5%;
+}
+
+.contactInfo {
+	max-width: 5%;
+	max-height: 5%;
+	margin-top: 1vh;
+}
+
+
+
+.contactCover {
+	width: 20%;
+	height: 100%;
+	background-color: #161616;
+	border-radius: 0.5rem;
+	align-items: stretch;
+	justify-content: center;
+	font-size: 40;
+	margin-bottom: 1rem;
+}
+
+.contactCover:hover {
+	transition: 0.5s;
+	background-color: #323130;
+}
+
+.contactImage {
+	width: 90%;
+	height: 55%;
+	margin: 1rem auto;
+	position: relative;
+	box-shadow:
+		0 4px 16px rgba(0, 0, 0, 0.4),
+		0 8px 18px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: .5rem;
+	padding-bottom: 1%;
+	font-size: .8rem;
+	cursor: pointer;
+}
+
+.contactTitle {
+	font-size: 1.8vw;
+	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.01rem;
+}
+
+.contactName {
+	font-size: 1rem;
+	color: #FFFFFF;
+	margin-bottom: 0.5rem;
+	margin-left: .8rem;
+	margin-top: .001rem;
+}
+
+
 /* ------------------------------------- ABOUT ME ---------------------------------- */
 
 .bio h3 {
+	display: block;
 	font-size: 1rem;
 	margin-left: 1.5rem;
 	margin-right: 5rem;

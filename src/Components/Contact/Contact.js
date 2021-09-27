@@ -4,9 +4,33 @@ import { useLocation } from 'react-router-dom'
 const Contact = () => {
     const location = useLocation()
     console.log(location.state.contacts)
+    const contacts = location.state.contacts.map((contact) =>
+        {return <div className="contactCover">
+                    <a className="contactImage" style={contact.style} target="_blank" rel="noreferrer" href={contact.link}>
+                        <img src={contact.image} />
+                        {/* <img className="contactCategory"/> */}
+                    </a>
+                    <h4 className="contactName">{contact.name}</h4>
+                </div> 
+        }
+    )
+
     return (
-        <div className="contactsDiv">
-            <h1>Hello from Contacts</h1>
+        <div>
+            <div className="contactsDiv">
+                    {contacts}
+            </div>
+
+            <div classname="contactGreet">
+                <p className="contactGreet">Shoot me an email, connect on LinkedIn or checkout my Github!</p>
+            </div>
+    
+            <div className="contactInformation">
+                    <img src="https://i.imgur.com/XKQHA8c.png" alt="envelope" />
+                    <p>jurgen.stevens@yahoo.com</p>
+                    <img src="https://i.imgur.com/lkWUXDF.png" alt="phone-icon" />
+                    <p>(847)802-2801</p>
+            </div>
         </div>
     )
 }

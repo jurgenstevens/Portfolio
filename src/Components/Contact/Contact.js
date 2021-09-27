@@ -26,10 +26,14 @@ const Contact = () => {
             </div>
     
             <div className="contactInformation">
+                <div className="contactInfo">
                     <img src="https://i.imgur.com/XKQHA8c.png" alt="envelope" />
                     <p>jurgen.stevens@yahoo.com</p>
+                </div>
+                <div className="contactInfo">
                     <img src="https://i.imgur.com/lkWUXDF.png" alt="phone-icon" />
-                    <p>(847)802-2801</p>
+                    <p>(847)8022801</p>
+                </div>
             </div>
         </div>
     )

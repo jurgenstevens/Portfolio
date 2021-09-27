@@ -553,4 +553,8 @@ a {
 		letter-spacing: 3px;
 		font-size: .7vw;
 	}
+
+	.contactName {
+		font-size: .5rem;
+	}
 }

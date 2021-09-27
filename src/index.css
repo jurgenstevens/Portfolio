@@ -412,8 +412,24 @@ a {
 /* ------------------------------------- MOBILE ---------------------------------- */
 
 .resumeDiv {
-	
+	margin: 20vh 2vw;
+	max-width: 100%; 
+	display: block;
+	/* flex-direction: row; */
+	color: #FFFFFF;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
+
+
+
+
+
+
+
+
 
 
 

@@ -424,7 +424,7 @@ a {
 
 .resumeCard {
 	width: 60%;
-	height: 100%;
+	height: 60%;
 	background-color: #161616;
 	border-radius: 0.5rem;
 	align-items: stretch;
@@ -477,6 +477,18 @@ a {
 	.links {
 		font-size: .2rem;;
 	}
+
+	.resumeDiv {
+		margin: 13vh 2vh;
+		max-width: 100%; 
+		display: flex;
+		color: #FFFFFF;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+	}
+
 	.headerDiv{
 		font-size: 3.5vw;
 	}

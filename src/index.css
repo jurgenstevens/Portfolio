@@ -564,8 +564,9 @@ a {
 	}
 
 	.aboutCategory {
-		text-transform: uppercase;
-		font-size: .15rem;
+		/* text-transform: uppercase;
+		font-size: .15rem; */
+		display: none;
 	}
 
 	.contactName {

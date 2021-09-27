@@ -62,15 +62,15 @@ a {
 
 .homeDiv {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-	margin: 40vh 10vw;
+	margin: 30vh 10vw;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .profileIntro {
 	display: block;
 	align-items: center;
 	justify-content: stretch;
-	margin-left: 15vw;
 	font-size: 2rem;
 }
 

@@ -3,7 +3,12 @@ import React from 'react'
 const Resume = () => {
     return (
         <div className="resumeDiv">
-            <h1>I'm working on it!</h1>
+            <div className="resumeCard">
+                <a href="./jurgenstevensresume.pdf" className="resumeImage" download>
+                    <img src="https://i.imgur.com/U0QLLxB.png" alt="resume-card" />
+                </a>
+                <p className="resumeTitle"> Click to Download PDF</p>
+            </div>
         </div>
     )
 }

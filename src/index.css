@@ -412,10 +412,9 @@ a {
 /* ------------------------------------- MOBILE ---------------------------------- */
 
 .resumeDiv {
-	margin: 20vh 2vw;
+	margin: 20vh 40vh;
 	max-width: 100%; 
-	display: block;
-	/* flex-direction: row; */
+	display: flex;
 	color: #FFFFFF;
 	align-items: center;
 	justify-content: center;
@@ -423,7 +422,44 @@ a {
 	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
+.resumeCard {
+	width: 60%;
+	height: 100%;
+	background-color: #161616;
+	border-radius: 0.5rem;
+	align-items: stretch;
+	justify-content: center;
+	font-size: 40;
+	margin-bottom: 1rem;
+}
 
+.resumeImage {
+	width: 90%;
+	height: 55%;
+	margin: 1rem auto;
+	position: relative;
+	background: linear-gradient(#7DE0FE, #F0F0E8);
+	box-shadow:
+		0 4px 16px rgba(0, 0, 0, 0.4),
+		0 8px 18px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: .5rem;
+	padding-bottom: 1%;
+	font-size: .8rem;
+	cursor: pointer;
+}
+
+.resumeTitle {
+	font-size: 1.8vw;
+	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
 
 
 

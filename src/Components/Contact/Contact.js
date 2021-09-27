@@ -7,8 +7,7 @@ const Contact = () => {
     const contacts = location.state.contacts.map((contact) =>
         {return <div className="contactCover">
                     <a className="contactImage" style={contact.style} target="_blank" rel="noreferrer" href={contact.link}>
-                        <img src={contact.image} />
-                        {/* <img className="contactCategory"/> */}
+                        <img src={contact.image} alt="social-media"/>
                     </a>
                     <h4 className="contactName">{contact.name}</h4>
                 </div> 

@@ -450,21 +450,6 @@ a {
 	cursor: pointer;
 }
 
-
-/* margin: 1rem auto;
-position: relative;
-background: linear-gradient(#C2A36A, 
-	#A7653B);
-box-shadow:
-	0 4px 16px rgba(0, 0, 0, 0.4),
-	0 8px 18px rgba(0, 0, 0, 0.2);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-bottom: 1.5rem;
-padding-bottom: 20%; */
-
 .resumeTitle {
 	font-size: 1.8vw;
 	display: flex;
@@ -675,4 +660,52 @@ padding-bottom: 20%; */
 		transition: 0.5s;
 		background-color: #323130;
 	}
+
+	.resumeDiv {
+		margin: 11vh;
+		margin-left: 2vw;
+		max-width: 80vh; 
+		display: flex;
+		color: #FFFFFF;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+	}
+	
+	.resumeCard {
+		background-color: #161616;
+		border-radius: 0.5rem;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+	
+	.resumeImage {
+		height: 30vh;
+		max-width: 70vh;
+		margin: 1vh;
+		position: relative;
+		background: linear-gradient(#7DE0FE, #F0F0E8);
+		box-shadow:
+			0 4px 16px rgba(0, 0, 0, 0.4),
+			0 8px 18px rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: .5rem;
+		padding-bottom: 1%;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+	
+	.resumeTitle {
+		font-size: 1.8vw;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+
+
 }

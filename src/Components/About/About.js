@@ -25,7 +25,7 @@ const About = () => {
     return (
         <div className="aboutDiv">
             <div className="bio">
-                <h3>I'm a fullstack web developer from Chicago, Illinois, USA and I've been coding since 2018. The idea of now being able say "I can try to build that.", as opposed to: "It'd be nice if there was an app where..." is an blessing. Besides being fluent in Spanish, and knowing some Italian and Bosnian, below are this skills I have to offer.</h3>
+                <h3>I'm a fullstack software developer from Chicago, Illinois, USA and I've been coding since 2018. The idea of now being able say "I can build that.", as opposed to: "It'd be nice if there was an app where..." is a blessing. Besides being fluent in Spanish, and knowing some Italian and Bosnian, below are this skills I have to offer.</h3>
             </div>
                 {languages}
                 {frameworks}

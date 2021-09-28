@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div className="contactInfo">
                     <img src="https://i.imgur.com/lkWUXDF.png" alt="phone-icon" />
-                    <p>(847)8022801</p>
+                    <a href="tel:+1-847-802-2801">(847)8022801</a>
                 </div>
             </div>
         </div>

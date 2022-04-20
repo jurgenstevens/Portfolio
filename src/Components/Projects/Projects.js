@@ -2,7 +2,7 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 
 const Projects = () => {
-    // this will bring in the state from the Link in Main.js containing the props
+    // this will bring in the state from the Link in Main.js containing the data
     const location = useLocation()
     console.log(location.state.projects)
     const projectList = location.state.projects.map((project) => 

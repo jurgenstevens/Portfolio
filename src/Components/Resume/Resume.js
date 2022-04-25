@@ -7,7 +7,7 @@ const Resume = () => {
                 <a href="./jurgenstevensresume.pdf" className="resumeImage" download>
                     <img src="https://i.imgur.com/U0QLLxB.png" alt="resume-card" />
                 </a>
-                <p className="resumeTitle"> Click to Download PDF</p>
+                <p className="resumeTitle"> Click to Download Resume PDF</p>
             </div>
         </div>
     )

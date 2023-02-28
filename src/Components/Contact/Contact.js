@@ -29,10 +29,10 @@ const Contact = () => {
                     <img src="https://i.imgur.com/XKQHA8c.png" alt="envelope" />
                     <p>jurgen.stevens@yahoo.com</p>
                 </div>
-                <div className="contactInfo">
+                {/* <div className="contactInfo">
                     <img src="https://i.imgur.com/lkWUXDF.png" alt="phone-icon" />
                     <a href="tel:+1-847-802-2801">(847)8022801</a>
-                </div>
+                </div> */}
             </div>
         </div>
     )

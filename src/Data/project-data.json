@@ -1,5 +1,5 @@
 [
     {"name": "Hillbomber", "image": "https://i.imgur.com/DxO70oH.png", "category": "Entertainment", "link": "https://jurgenstevens.github.io/hillbomber/", "about": "A 2D skateboard game built with Canvas and OOP where you skate through San Francisco’s streets dodging potholes, dogs and cars!" },
-    {"name": "uCommute", "image": "https://i.imgur.com/VF4L7FF.png", "category": "Transit", "link": "https://ucommute-chi.herokuapp.com/", "about": "A full stack commuting app designed to help you find your way around Chicago built MongoDB, Express.js, React.js and Node.js." },
+    {"name": "uCommute", "image": "https://i.imgur.com/VF4L7FF.png", "category": "Transit", "link": "https://ucommute.netlify.app/", "about": "A full stack commuting app designed to help you find your way around Chicago built MongoDB, Express.js, React.js and Node.js." },
     {"name": "Archer Skateshop", "image": "https://i.imgur.com/tu5Kk7G.png", "category": "Ecommerce", "link": "https://archerskateshop.netlify.app/", "about": "An e-commerce skateboarding site built with Bootstrap, Javascript and React where you can shop for anything skateboarding related." }
 ]
